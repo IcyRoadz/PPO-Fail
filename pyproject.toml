@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "testagent"
+version = "0.1.0"
+description = ""
+authors = ["Redacted"]
+
+[tool.poetry.dependencies]
+python = "^3.10.8"
+torch = "^2.2.1"
+gymnasium = "^0.29.1"
+anyscale = "0.5.166"
+ray = "2.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
